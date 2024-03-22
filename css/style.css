@@ -1,0 +1,35 @@
+
+body{
+    background-image: url(../Assets/Background.png);
+}
+.brdr{
+    border-radius: 1%;
+    overflow: hidden;
+}
+.bg-blue{
+    background-image: url(../Assets/Pattern.png);
+    background-color: rgba(0, 60, 255, 0.817);
+    
+}
+.btn{
+    background-color:rgba(0, 60, 255, 0.817) ;
+    color: white;
+}
+
+
+.container{
+    width: 100%;
+}
+
+@media  (max-width:600px)  {
+     /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    body{
+        background-image: none;
+    }
+    }
+    @media (min-width:768px)and (max-width: 992px){
+        .media{
+            width: 75%;
+        }
+        }
+
